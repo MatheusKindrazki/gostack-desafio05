@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/gostack-desafio05/static/js/main.6f475776.chunk.js",
+    "main.js.map": "/gostack-desafio05/static/js/main.6f475776.chunk.js.map",
+    "runtime~main.js": "/gostack-desafio05/static/js/runtime~main.8016772b.js",
+    "runtime~main.js.map": "/gostack-desafio05/static/js/runtime~main.8016772b.js.map",
+    "static/js/2.66f87cb4.chunk.js": "/gostack-desafio05/static/js/2.66f87cb4.chunk.js",
+    "static/js/2.66f87cb4.chunk.js.map": "/gostack-desafio05/static/js/2.66f87cb4.chunk.js.map",
+    "index.html": "/gostack-desafio05/index.html",
+    "precache-manifest.126ef86e3b16c228eb38e9aa7e5e5047.js": "/gostack-desafio05/precache-manifest.126ef86e3b16c228eb38e9aa7e5e5047.js",
+    "service-worker.js": "/gostack-desafio05/service-worker.js"
+  }
+}
