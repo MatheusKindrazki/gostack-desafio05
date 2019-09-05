@@ -47,7 +47,9 @@ class Home extends Component {
 
       if (newRepo === '') throw 'Você precisa indicar um repositório';
 
-      const hasRepo = repositories.find(r => r.name === newRepo);
+      const hasRepo = repositories.find(
+        repository => repository.name === newRepo
+      );
 
       if (hasRepo) throw 'Repositório duplicado';
 

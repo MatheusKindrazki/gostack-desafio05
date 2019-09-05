@@ -39,7 +39,7 @@ export default class Repository extends Component {
       api.get(`/repos/${repoName}`),
       api.get(`/repos/${repoName}/issues`, {
         params: {
-          state: filters.find(f => f.active).state,
+          state: filters.find(filter => filter.active).state,
           per_page: 5,
         },
       }),
