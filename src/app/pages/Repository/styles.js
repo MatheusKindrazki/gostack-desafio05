@@ -1,4 +1,13 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Loading = styled.div`
   color: #fff;
@@ -6,8 +15,14 @@ export const Loading = styled.div`
   font-weight: bold;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 100vh;
+
+  svg {
+    margin-top: 30px;
+    animation: ${rotate} 2s linear infinite;
+  }
 `;
 
 export const Owner = styled.header`
