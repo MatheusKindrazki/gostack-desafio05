@@ -7,7 +7,7 @@ import api from '../../../services/api';
 import Container from '../../components/Container';
 import { Form, SubmitButton, List } from './styles';
 
-export default class Main extends Component {
+class Home extends Component {
   state = {
     newRepo: '',
     repositories: [],
@@ -109,3 +109,5 @@ export default class Main extends Component {
     );
   }
 }
+
+export default Home;

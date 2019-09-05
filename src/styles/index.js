@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -11,7 +11,7 @@ export default createGlobalStyle`
     min-height: 100%;
   }
   body {
-    background: #7159c1;
+    background: #46A4D9;
     -webkit-font-smoothing: antialiased !important;
   }
   body, input, button {
