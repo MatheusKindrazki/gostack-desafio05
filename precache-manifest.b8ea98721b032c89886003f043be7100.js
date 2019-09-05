@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d06c87db29cb7283cd1cc94f88eadba",
+    "revision": "e1306eb80f8eec7945c32c7a33eb81d4",
     "url": "/gostack-desafio05/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gostack-desafio05/static/js/2.66f87cb4.chunk.js"
   },
   {
-    "revision": "500f80925fe1bf53ba2b",
-    "url": "/gostack-desafio05/static/js/main.6f475776.chunk.js"
+    "revision": "53213d4182df5d59abb5",
+    "url": "/gostack-desafio05/static/js/main.d371cfe3.chunk.js"
   },
   {
     "revision": "f8bdab5e47febf1af9af",
