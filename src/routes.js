@@ -5,8 +5,9 @@ import Home from './app/pages/Home';
 import Repository from './app/pages/Repository';
 
 export default function Routes() {
+  console.log('This is the process.env', process.env.PUBLIC_URL);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/repository/:repository" component={Repository} />
